@@ -1,0 +1,68 @@
+/* ============================== GLOBAL.SCSS ===================================== */
+
+.container {
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.title {
+    @include fonts( $ff, 48px, $text-color);
+    font-weight: 800;
+    line-height: 68px;
+}
+
+.subtitle {
+    @include fonts( $ff, 24px, $accent_color);
+    line-height: 68px;
+    font-weight: 600;
+}
+
+.text {
+    @include fonts( $ff, 14px, #A0ABB8);
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.link {
+    @include fonts( $ff, 14px, $white);
+    line-height: 21px;
+    font-weight: 600;
+    background: $accent_color;
+    border-radius: 4px;
+    padding: 10px 18px 8px;
+}
+
+.tac {
+    text-align: center;
+}
+
+.subtitle-purple {
+    @include fonts( $ff, 24px, #5975FF);
+    font-weight: 600;
+    line-height: 68px;
+}
+
+.title-white {
+    @include fonts( $ff, 48px, $white);
+    font-weight: 800;
+    line-height: 68px;
+}
+
+.box-title {
+    @include fonts( $ff, 24px, $text-color);
+    font-weight: 800;
+    line-height: 34px;
+}
